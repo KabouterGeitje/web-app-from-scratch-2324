@@ -47,6 +47,24 @@ TBA
 
 [//]: # (|            | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.                                       |             |)
 
+## Logboek per dag
+
+<details>
+  <summary>dag 1</summary>
+  
+  ## Wat heb ik gedaan?
+Eerste dag hebben we ons vooral bezig gehouden met alles opzetten. Ik had nog nooit eerder met git gewerkt, dus het was interessant om over te leren. Uiteindelijk werkte het niet echt bij mij, dus werk ik vanuit Github Desktop.
+
+Ik heb alvast wat schetsen gemaakt voor de persoonlijke pagina.
+</details>
+
+<details>
+  <summary>dag 2</summary>
+  
+  ## Wat heb ik gedaan?
+We hebben iets meer geleerd over wat we precies gaan doen dit blok. Verder zijn we verder gegaan met onze opdracht. Ik heb in figma wat schetsen gemaakt voor mijn persoonlijke pagina. We hebben ook geleerd over json files en hoe je die in javascript kunt opvragen en de data erin kunt gebruiken.
+</details>
+
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
 <!-- ☝️ replace this description with a description of your own work -->
