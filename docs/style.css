@@ -94,7 +94,7 @@ li{
   padding: 0;
 }
 ul li img{
-    height: clamp(25em, );
+    height: 25em;
     width: auto;
     object-fit: cover;
 }
