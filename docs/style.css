@@ -25,6 +25,7 @@ body {
   margin: 0;
   padding: 0;
   height:100vh;
+  overflow-x: hidden;
 }
 
 /*Inleiding + foto*/
@@ -67,9 +68,8 @@ body > section:nth-of-type(2) {
     padding: 0;
     display: flex;
     flex-direction: column;
-    margin-bottom:1em;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+  
 }
 
 h2{
@@ -79,31 +79,24 @@ h2{
 /*carousel*/
 
 ul{
-  margin:;
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width: auto;
+  overflow-x: scroll;
+}
+
+li{
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
-
-.slider{
-    width:100%;
-    height: 62,5%;
-    overflow:hidden;
-    position: relative;
-}
-
-.slides{
-    width: 500%;
-    height: auto;
-    display:flex;
-}
-
-.slide{
-    width: 20%;
-    transition:2s;
-}
-
-.slide img{
-    width: 100%;
-    height: 100%;
+ul li img{
+    height: clamp(25em, );
+    width: auto;
+    object-fit: cover;
 }
 
 
