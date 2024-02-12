@@ -1,0 +1,47 @@
+{
+  "naam": "Nicole Schilder",
+  "avatar": "img",
+  "woonplaats": "Haarlem",
+  "Geboortedag": {
+    "jaar": 1995,
+    "maand": 12,
+    "dag": 1
+  },
+  "huisdieren": [
+    {
+      "kat": {
+        "naam": "teddy",
+        "leeftijd": "13"
+      }
+    },
+    {
+      "kat": {
+        "naam": "teddy",
+        "leeftijd": "13"
+      }
+    }
+  ],
+  "hobby's": [
+    {
+      "hobby": "gamen"
+    },
+    {
+      "hobby": "tekenen"
+    },
+    {
+      "hobby": "gitaar spelen"
+    },
+    {
+      "hobby": "koken"
+    },
+    {
+      "hobby": "zingen"
+    },
+    {
+      "hobby": "boulderen"
+    },
+    {
+      "hobby": "overthinken"
+    }
+  ]
+}
