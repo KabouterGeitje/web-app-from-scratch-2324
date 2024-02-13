@@ -40,8 +40,7 @@ body > section:nth-of-type(1) {
   margin-bottom:2em;
 }
 
-h1 {
-  
+h1 {  
   font-size: clamp(1em, 1.5vw, 2em);
 }
 
@@ -151,12 +150,11 @@ body > section:nth-of-type(2) {
     padding: 0;
     display: flex;
     flex-direction: column;
-    width: 100%;
-  
+    overflow-x: scroll;
 }
 
 h2{
-    place-self: center;
+    margin-left: 5%;
 }
 
 /*carousel*/
@@ -167,28 +165,28 @@ ul{
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  width: auto;
+  width: 500%;
   overflow-x: scroll;
 }
 
 li{
-  width: 100%;
+  width: 100vw;
   margin: 0;
   padding: 0;
+  animation: carouselEffect 25s linear infinite;
 }
 
 ul li img{
     height: 25em;
-    width: auto;
-    object-fit: cover;
-    /* animation: carousel 10s linear infinite; */
+    width: 100vw;
+    object-fit: cover;  
 }
 
-@keyframes carousel {
+@keyframes carouselEffect {
   0%{
-    transform: translateX(0);
+    transform: translateX(0)
   }
   100%{
-    transform: translateX(-300%);
+    transform: translateX(-400vw)
   }
 }

@@ -6,8 +6,8 @@ const h1 = document.querySelector('h1');
 
 function hoverActivate(){
   h1.classList.add('scale');
-  
 }
+
 function hoverDeactivate(){
   h1.classList.remove('scale');
 }
@@ -28,4 +28,16 @@ async function FetchData() {
 
 FetchData();
 
-/*window.onscroll = funsction() {bottompage}*/
+/*poging tot carousel (ik heb geen idee wat ik doe)*/
+
+const listItem1 = document.querySelector("li:nth-of-type(1)")
+const listItem2 = document.querySelector("li:nth-of-type(2)")
+const listItem3 = document.querySelector("li:nth-of-type(3)")
+const listItem4 = document.querySelector("li:nth-of-type(4)")
+
+
+
+
+
+
+/*window.onscroll = function() {bottompage}*/
