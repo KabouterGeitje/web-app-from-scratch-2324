@@ -28,14 +28,7 @@ async function FetchData() {
 
 FetchData();
 
-/*poging tot carousel (ik heb geen idee wat ik doe)*/
-
-const listItem1 = document.querySelector("li:nth-of-type(1)")
-const listItem2 = document.querySelector("li:nth-of-type(2)")
-const listItem3 = document.querySelector("li:nth-of-type(3)")
-const listItem4 = document.querySelector("li:nth-of-type(4)")
-
-
+/*carousel langzaam maken bij hover*/
 
 
 

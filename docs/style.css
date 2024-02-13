@@ -16,6 +16,8 @@
   );
 }
 
+
+
 /*mobile first styling*/
 
 body {
@@ -56,7 +58,7 @@ h1:before{
   left:50%;
   right: 50%;
   transform: translate(-50%, -50%);
-  top: clamp(8em, 20em, 15vw);
+  top: clamp(7.5em, 20em, 15vw);
   animation: blobBefore 3s linear infinite;
   transition: 1s ease-in-out;
 }
@@ -89,7 +91,7 @@ h1:after{
   right: 50%;
   transform: translate(-50%, -50%);
   z-index: -2;
-  top: clamp(8em, 20em, 15vw);
+  top: clamp(7.5em, 10em, 15vw);
   animation: blobAfter 3s linear infinite;
   transition: 1s ease-in-out;
 }
@@ -123,8 +125,9 @@ body > section:nth-of-type(1) > img {
   position: relative;
 }
 
-p {
-  margin: 3%;
+p:nth-of-type(1){
+  justify-self: start;
+  margin-left:10%;
 }
 
 p:nth-of-type(2) {
@@ -142,6 +145,10 @@ details > details summary{
   margin-left:1.5em;
 }
 
+summary::-webkit-details-marker {
+  display: none
+}
+
 /*Visual of front-end keuze + illustratie*/
 
 
@@ -150,11 +157,11 @@ body > section:nth-of-type(2) {
     padding: 0;
     display: flex;
     flex-direction: column;
-    overflow-x: scroll;
 }
 
 h2{
     margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 /*carousel*/
@@ -166,14 +173,13 @@ ul{
   flex-direction: row;
   list-style-type: none;
   width: 500%;
-  overflow-x: scroll;
 }
 
 li{
   width: 100vw;
   margin: 0;
   padding: 0;
-  animation: carouselEffect 25s linear infinite;
+  animation: carouselEffect 50s linear infinite;
 }
 
 ul li img{
@@ -190,3 +196,57 @@ ul li img{
     transform: translateX(-400vw)
   }
 }
+
+ul:hover li{
+  animation-play-state: paused;
+  transition:2s;
+}
+
+ul li img:hover{
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+
+/* Zodat als je hovert geen enkel plaatje achter de ander kan komen */
+
+ul > li:nth-of-type(1):hover{
+  z-index:10;
+}
+
+ul > li:nth-of-type(2):hover{
+  z-index:10;
+}
+
+ul > li:nth-of-type(3):hover{
+  z-index:10;
+}
+
+ul > li:nth-of-type(4):hover{
+  z-index:10;
+}
+
+@media all and (min-width: 900px) {
+  body{
+    background: lightblue;
+  }
+
+  body > section:nth-of-type(1) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap:1em;
+  }
+
+  h1{
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  body > section:nth-of-type(1) > img {
+    grid-area: 2 / 1 / 4 / 2;
+  }
+
+  p:nth-of-type(1){
+    grid-area: 1/ 2 / 2 / 3;
+  }
+}
+
+
