@@ -9,14 +9,15 @@
 Eerste dag hebben we ons vooral bezig gehouden met alles opzetten. Ik had nog nooit eerder met git gewerkt, dus het was interessant om over te leren. Uiteindelijk werkte het niet echt bij mij, dus werk ik vanuit Github Desktop.
 
 Ik heb alvast wat schetsen gemaakt voor de persoonlijke pagina.
-![schetsen](/docs/screenshots/figmaSchetsen.png)
+
 </details>
 
 <details>
   <summary>dag 2</summary>
   
   ## Wat heb ik gedaan?
-We hebben iets meer geleerd over wat we precies gaan doen dit blok. Verder zijn we verder gegaan met onze opdracht. Ik heb in figma wat schetsen gemaakt voor mijn persoonlijke pagina. We hebben ook geleerd over json files en hoe je die in javascript kunt opvragen en de data erin kunt gebruiken.
+We hebben iets meer geleerd over wat we precies gaan doen dit blok. Verder zijn we verder gegaan met onze opdracht. Ik ben verder gegaan met de schetsen voor mijn persoonlijke pagina. We hebben ook geleerd over json files en hoe je die in javascript kunt opvragen en de data erin kunt gebruiken.
+![schetsen](/docs/screenshots/figmaSchetsen.png)
 </details>
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
