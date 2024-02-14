@@ -23,12 +23,13 @@ async function FetchDataName() {
   const response = await fetch("./info.json");
   const data = await response.json();
 
-  firstName.innerHTML = data.naam;
+  // naam.innerHTML = data.firstName + " " + data.lastName;
+  naam.innerHTML = `${data.firstName} ${data.lastName}`
 }
 
 FetchDataName();
 
-
+/*kattenplaatjes API*/ 
 
 async function getCat() {
   const response = await fetch("https://api.thecatapi.com/v1/images/search")
@@ -39,6 +40,12 @@ async function getCat() {
 }
 
 getCat();
+
+/*zodat ik weet hoe ver mijn pagina is met scrollen */
+
+window.addEventListener('scroll', () => {
+  document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+}, false);
 
 
 /*window.onscroll = function() {bottompage}*/
