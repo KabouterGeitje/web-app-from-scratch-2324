@@ -19,16 +19,17 @@ avatar.addEventListener("mouseout", hoverDeactivate);
 
 const naam = document.querySelector("h1");
 
-async function FetchData() {
+async function FetchDataName() {
   const response = await fetch("./info.json");
   const data = await response.json();
 
-  naam.innerHTML = data.naam;
+  firstName.innerHTML = data.naam;
 }
 
-FetchData();
+FetchDataName();
 
-/*carousel langzaam maken bij hover*/
+/*spotify API*/
+
 
 
 
