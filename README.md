@@ -26,8 +26,9 @@ We hebben ook geleerd over json files en hoe je die in javascript kunt opvragen 
   <summary>dag 3</summary>
   
   ## Wat heb ik gedaan?
-Vandaag ben ik echt begonnen met coderen. Ik wilde graag mijn opzet zo snel mogelijk afhebben. Ik ben uiteindelijk niet mijn schets gaan namaken. Ik ging wel van mijn laatste idee uit, maar ben gewoon dingen gaan proberen. Ik wilde mobile first ontwerpen, dus ben met een klein scherm begonnen. Ik had al een tijdje niet gecodeerd, dus ik merkte dat ik veel opnieuw moest opzoeken en vast kwam te zitten op fouten waar je jezelf echt voor op de kop slaat.
-![schetsen](/docs/screenshots/tweede before img.png)
+Vandaag ben ik echt begonnen met coderen. Ik wilde graag mijn opzet zo snel mogelijk afhebben. Ik ben uiteindelijk niet mijn schets gaan namaken. Ik ging wel van mijn laatste idee uit, maar ben gewoon dingen gaan proberen. Ik wilde mobile first ontwerpen, dus ben met een klein scherm begonnen. Ik had al een tijdje niet gecodeerd, dus ik merkte dat ik veel opnieuw moest opzoeken en vast kwam te zitten op fouten waar je jezelf echt voor op de kop slaat. Hieronder een voorbeeld hiervan. Ik wilde een image een before en after geven, maar kwam er dus later achter dat dit helemaal niet kan bij een image. Heel veel tijd aan verloren, maar dit vergeet ik nooit meer.
+![schetsen](/docs/screenshots/tweede_before_img.png)
+![schetsen](/docs/screenshots/tweede_before_werkte_niet,_verkeerde_selector.png)
 
 We hebben ook geleerd over json files en hoe je die in javascript kunt opvragen en de data erin kunt gebruiken. We hebben een eigen json file opgezet met tijdelijke informatie die we later nog moeten aanpassen zodat ze allemaal hetzelfde zijn.
 </details>
