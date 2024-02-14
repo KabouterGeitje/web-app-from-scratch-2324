@@ -1,5 +1,4 @@
-/*image hover */
-
+/*avatar hover */
 
 const avatar = document.querySelector('body > section:nth-of-type(1) > img')
 const h1 = document.querySelector('h1');
@@ -43,9 +42,19 @@ getCat();
 
 /*zodat ik weet hoe ver mijn pagina is met scrollen */
 
-window.addEventListener('scroll', () => {
-  document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-}, false);
+const plaatje1 = document.querySelector("ul li img:nth-of-type(1)")
+const plaatje2 = document.querySelector("ul li img:nth-of-type(2)")
+const plaatje3 = document.querySelector("ul li img:nth-of-type(3)")
+const plaatje4 = document.querySelector("ul li img:nth-of-type(4)")
+var plaatjeIsClicked = false;
 
+function clickPlaatje() {
+  if (plaatjeIsClicked = false){
+    plaatjeIsClicked = true;
+  }
+
+}
+
+plaatje1.addEventListener("click", clickPlaatje)
 
 /*window.onscroll = function() {bottompage}*/
