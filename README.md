@@ -50,6 +50,8 @@ Ziek zijn. Ik heb deze dagen helaas niks kunnen doen aan school.
   ## Wat heb ik gedaan?
 Ik kon zaterdag ook nog niet aan school, maar zondag voelde ik mij al een stukje beter, dus heb ik toch wat progressie kunnen maken. Ik wist dat ik mijn werk wilde laten zien in een carousel. Ik heb nog nooit een carousel gemaakt en wil graag weten hoe dit moet. Ik ben vanuit een filmpje gaan werken. Ik kwam echter vast te zitten op een plek in het filmpje waar er radio buttons gebruikt zouden worden om te laten zien bij welke slide je bent. Bij mij wilde ze niet rond worden en ik kon ze met geen enkele manier verplaatsen. Ze stonden linksonder aan het scherm vastgeplakt en ik had alles geprobeerd, maar het werkte gewoon niet. Ik ben er nooit achter gekomen waarom niet.
 
+video: https://www.youtube.com/watch?v=0wvrlOyGlq0&t=1s
+
 ![radioButtonHell](/docs/screenshots/carousel_volgens_filmpje_radio_buttons_niet_zichtbaar.png)
 
 ![radioButtonHell](/docs/screenshots/radio_buttons_werken_niet_mee_qua_plaatsing.png)
@@ -93,6 +95,29 @@ Daarna wilde ik nog proberen om de carousel te stoppen wanneer je eroverheen hov
 
 ![stopEnDoor](/docs/screenshots/poging_tot_stoppen_carousel_en_weer_doorgaan.png)
 
+Verder heb ik een klein begin gemaakt om de website responsive te maken.
+
+</details>
+
+<details>
+  <summary>dag 8</summary>
+  
+  ## Wat heb ik gedaan?
+Vandaag heb ik mijn website responsive gemaakt. Dit heb ik gedaan door de grid aan te passen.
+
+![Responsive](/docs/screenshots/responsiveMobile.png)
+
+![Responsive](/docs/screenshots/responsiveGroot.png)
+
+Ik heb ook een API toegevoegd. Ik wilde een spotify API doen, maar ik ben nog helemaal niet echt bekend hiermee en ik kwam er niet uit. Ook niet met de hulp van Stef of Stephan. Ik heb nog gekeken naar de google maps API, maar had daar een credit card voor nodig, die ik niet heb. Uiteindelijk ben ik maar opzoek gegaan naar iets simpels en kwam uiteindelijk uit op een random katten generator. 
+
+![API](/docs/screenshots/API.png)
+
+Ik had nog een poging gedaan tot het scrollbaar maken van de carousel door te scrollen en hiermee de animatie te laten bewegen, maar dat lukte niet. Ik ging uit van deze bron: https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
+Ik denk dat het niet werkte, omdat ik al aan het einde van mijn page was als ik naar de carousel ging en de animatie zou op basis van hoe ver je bent op de page moeten scrollen. Verder snapte ik het ook niet echt helemaal.
+
+Ik wilde ook nog kijken naar toegankelijkheid.
+Ik heb al mijn animaties met 'preffered reduced motion: no preference' aangezet, zodat ze alleen aanstaan wanneer erg een preference is gegeven. Ook heb ik het selecteren van de elementen tijdens het tabben duidelijker gemaakt met cosmetischer veranderingen. Na de weekly nerd ben ik wel gemotiveerd om dit in de toekomst nog veel beter aan te pakken, want wat ik nu heb is echt mega basic in vergelijking met hoe je dit echt goed kan implementeren.
 </details>
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
