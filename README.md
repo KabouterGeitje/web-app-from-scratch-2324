@@ -9,7 +9,7 @@
 Eerste dag hebben we ons vooral bezig gehouden met alles opzetten. Ik had nog nooit eerder met git gewerkt, dus het was interessant om over te leren. Uiteindelijk werkte het niet echt bij mij, dus werk ik vanuit Github Desktop.
 
 Ik heb alvast wat schetsen gemaakt voor de persoonlijke pagina.
-!(/docs/images/avatar.JPG)
+![schetsen](/docs/images/avatar.JPG)
 </details>
 
 <details>
