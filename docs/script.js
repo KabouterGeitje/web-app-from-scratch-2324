@@ -28,7 +28,8 @@ async function FetchDataName() {
 
 FetchDataName();
 
-/*spotify API*/
+/*maps API*/
+
 
 
 
