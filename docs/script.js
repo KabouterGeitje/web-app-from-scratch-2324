@@ -28,11 +28,17 @@ async function FetchDataName() {
 
 FetchDataName();
 
-/*maps API*/
 
 
+async function getCat() {
+  const response = await fetch("https://api.thecatapi.com/v1/images/search")
+  const data = await response.json();
+  console.log(data);
 
+  randomCat.src = data[0].url
+}
 
+getCat();
 
 
 /*window.onscroll = function() {bottompage}*/
