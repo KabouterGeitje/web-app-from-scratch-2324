@@ -1,47 +1,12 @@
 {
-  "naam": "Nicole Schilder",
-  "avatar": "img",
-  "woonplaats": "Haarlem",
-  "Geboortedag": {
-    "jaar": 1995,
-    "maand": 12,
-    "dag": 1
-  },
-  "huisdieren": [
-    {
-      "kat": {
-        "naam": "teddy",
-        "leeftijd": "13"
-      }
-    },
-    {
-      "kat": {
-        "naam": "teddy",
-        "leeftijd": "13"
-      }
-    }
-  ],
-  "hobby's": [
-    {
-      "hobby": "gamen"
-    },
-    {
-      "hobby": "tekenen"
-    },
-    {
-      "hobby": "gitaar spelen"
-    },
-    {
-      "hobby": "koken"
-    },
-    {
-      "hobby": "zingen"
-    },
-    {
-      "hobby": "boulderen"
-    },
-    {
-      "hobby": "overthinken"
-    }
-  ]
+  "github" : "https://kaboutergeitje.github.io/web-app-from-scratch-2324/",
+  "firstName" : "Nicole",
+  "lastName" : "Schilder",
+  "avatar_url" : "https://github.com/KabouterGeitje/web-app-from-scratch-2324/blob/main/docs/images/avatar.JPG",
+  "age" : 28,
+  "city" : "Haarlem",
+  "hobbies" : ["Gaming", "Drawing", "Guitar", "cooking", "singing", "Sports", "Overthinking"],
+  "truthsAndLies" : ["I'm half Polish", "I don't mind eating ice cream for breakfast", "I almost throw up everytime I wash my teeth"],
+  "bio" : "I like miers is mij verteld",
+  "favouriteAnimal" : "Phoenix"
 }
